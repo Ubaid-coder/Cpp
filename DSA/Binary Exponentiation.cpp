@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-int binaryExponentition(int x, int n);
+double binaryExponentition(int x, int n);
 
 int main()
 {
@@ -10,7 +10,7 @@ int main()
     return 0;
 }
 
-int binaryExponentition(int x, int n)
+double binaryExponentition(int x, int n)
 {
     long binForm = n;
     long double ans = 1;
